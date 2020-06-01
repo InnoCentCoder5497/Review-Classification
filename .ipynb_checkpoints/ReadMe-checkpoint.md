@@ -14,6 +14,7 @@ Data includes:
 
 ## Notebooks
 `Text Cleaning` : the notebook shows basic exploratory analysis and text cleaning.
+`Batching and Model Training` : The notebook currently contains code for Batching using `Bucket-Iteratinng` technique.
 
 ## References
 - Dataset : https://www.kaggle.com/snap/amazon-fine-food-reviews
