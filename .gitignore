@@ -1,1 +1,4 @@
 *.csv
+*.txt
+.vector_cache/
+*.pkl
