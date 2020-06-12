@@ -15,11 +15,20 @@ Data includes:
 ## Notebooks
 - `Text Cleaning` : the notebook shows basic exploratory analysis and text cleaning.
 - `Batching and Model Training` : The notebook contains code for Batching using `Bucket-Iteratinng` technique and a `BaseModel`.
+- `Bidirectional LSTM with torchtext.ipynb` : The notebook uses `torchtext` and `spacy` for text preprocessing followed by training a Bi-LSTM model.
 
 ## Model graphs
 - Base model Results <br> <br>
-<img src="./imgs/loss_base.jpg" width=350 height=256>
+<img src="./imgs/loss_base.jpg" width=350 height=256> <br>
 <img src="./imgs/acc_base.jpg"  width=350 height=256>
+
+- BiDirectional LSTM with SGD Results <br> <br>
+<img src="./imgs/bilstm-tt-loss.jpg" width=350 height=256> <br>
+<img src="./imgs/bilstm-tt-acc.jpg"  width=350 height=256>
+
+## Results
+- Base model : Got a Validation accuracy of *68.18*
+- Bi-LSTM : Got a Validation accuracy of *71.31*
 
 ## References
 - Dataset : https://www.kaggle.com/snap/amazon-fine-food-reviews

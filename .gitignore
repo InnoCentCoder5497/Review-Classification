@@ -2,3 +2,4 @@
 *.txt
 .vector_cache/
 *.pkl
+models/
