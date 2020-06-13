@@ -16,6 +16,7 @@ Data includes:
 - `Text Cleaning` : the notebook shows basic exploratory analysis and text cleaning.
 - `Batching and Model Training` : The notebook contains code for Batching using `Bucket-Iteratinng` technique and a `BaseModel`.
 - `Bidirectional LSTM with torchtext.ipynb` : The notebook uses `torchtext` and `spacy` for text preprocessing followed by training a Bi-LSTM model.
+- `Loading and Inference.ipynb` : The notebook loads the best Bi-LSTM model along with the vocabulary and show how to run inference from it.
 
 ## Model graphs
 - Base model Results <br> <br>
@@ -29,6 +30,9 @@ Data includes:
 ## Results
 - Base model : Got a Validation accuracy of *68.18*
 - Bi-LSTM : Got a Validation accuracy of *71.31*
+
+## Note
+The trained model and vocabulary files are not included in the repository as they are very big.
 
 ## References
 - Dataset : https://www.kaggle.com/snap/amazon-fine-food-reviews
